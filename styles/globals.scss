@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bounds {
+  @apply border border-dashed border-red-500;
+}
