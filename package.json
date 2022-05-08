@@ -11,15 +11,15 @@
     "prod": "yarn build && yarn start"
   },
   "dependencies": {
-    "next": "^12.1.5",
+    "next": "^12.1.6",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
   },
   "devDependencies": {
-    "@types/node": "^17.0.30",
+    "@types/node": "^17.0.31",
     "@types/react": "^18.0.8",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.10",
     "sass": "^1.51.0",
