@@ -15,15 +15,15 @@ interface NavbarProps {
 export default function Navbar({ links, className }: NavbarProps) {
   return (
     <nav
-      className={`flex w-full items-center justify-between py-4 px-16 ${className}`}
+      className={`sticky top-0 z-10 mb-8 flex w-full items-center justify-between bg-opacity-50 py-2 px-16 backdrop-blur ${className}`}
     >
       <Link href="/">
         <a className="flex items-center gap-4">
           <Image src={Logo} alt="Community Labs" height={32} width={32} />
-          <span className='text-2xl font-semibold'>Community Labs</span>
+          <span className="text-2xl font-semibold">Community Labs</span>
         </a>
       </Link>
-      <div className="flex gap-1 rounded-lg border border-neutral-900 bg-neutral-900">
+      <div className="flex gap-1 rounded-lg border-4 border-neutral-900 bg-neutral-900">
         {links.map(({ name, url, primary }) => (
           <Link href={url} key={url}>
             <a
