@@ -3,5 +3,7 @@ interface SectionProps {
   className?: string
 }
 export default function Container({ children, className }: SectionProps) {
-  return <section className={'' + className}>{children}</section>
+  return (
+    <section className={`max-w-full p-12 ${className}`}>{children}</section>
+  )
 }
