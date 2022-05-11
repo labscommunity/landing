@@ -4,6 +4,6 @@ interface SectionProps {
 }
 export default function Container({ children, className }: SectionProps) {
   return (
-    <section className={`max-w-full p-12 ${className}`}>{children}</section>
+    <section className={`w-full p-12 px-20 ${className}`}>{children}</section>
   )
 }

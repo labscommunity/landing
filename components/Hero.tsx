@@ -25,7 +25,7 @@ const buzzwords = [
 
 export default function Hero() {
   return (
-    <Section className="flex flex-col gap-16">
+    <Section className="flex px-28 flex-col gap-16">
       <h1 className="text-8xl font-bold">
         Building critical infrastructure for the Arweave ecosystem
       </h1>
@@ -46,7 +46,7 @@ export default function Hero() {
         </Marquee>
       </div>
       <div className="w-full text-neutral-400">
-        <p className="w-1/3 border-l-2 border-amber-500 pl-4 text-left">
+        <p className="w-2/5 border-l-2 border-amber-500 pl-4 text-xl text-left">
           <span className="font-bold">We are building</span> dolor sit amet,
           consectetur adipiscing elit. Sagittis, amet purus, enim nam turpis
           enim vulputate at. Tellus dolor, amet, urna
