@@ -18,7 +18,7 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/public/*": ["public/*"],
-      "@/config": ["site.config.ts"],
+      "@/utils/*": ["utils/*"],
       "@/layouts/*": ["layouts/*"],
       "@/lib/*": ["lib/*"],
       "@/styles/*": ["styles/*"]

@@ -33,7 +33,6 @@ export function Secondary({ href, className, children }: ButtonProps) {
   return (
     <El
       href={href}
-
       className={`${baseClassName} ${className} border-gray-800 text-gray-900 shadow-black hover:-translate-y-[1px] hover:shadow-md active:translate-y-[1px] active:shadow`}
     >
       {children}

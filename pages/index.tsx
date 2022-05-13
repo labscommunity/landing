@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           title="Verto"
           subtitle="Decentralized Exchange"
           description="Verto is a ipsum dolor sit amet, consectetur adipiscing elit. Sagittis, amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet, urna nunc at. Lobortis pharetra habitant non ac imperdiet sed."
-          link='https://verto.exchange'
+          link="https://verto.exchange"
           image={IMGverto}
         />
         <Project
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           subtitle="Smart Contracts | Infrastructure"
           gradient="bg-gradient-to-r from-cyan-500 to-blue-500"
           description="3EM is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis, amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet, urna nunc at. Lobortis pharetra habitant non ac imperdiet sed."
-          link='https://3em.dev'
+          link="https://3em.dev"
           image={IMG3em}
           reverse
         />
@@ -47,22 +47,12 @@ const Home: NextPage = () => {
           title="ArConnect"
           subtitle="Wallet | Identity"
           description="ArConnect is a ipsum dolor sit amet, consectetur adipiscing elit. Sagittis, amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet, urna nunc at. Lobortis pharetra habitant non ac imperdiet sed."
-          link='https://arconnect.io'
+          link="https://arconnect.io"
           image={IMGverto}
         />
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }

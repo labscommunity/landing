@@ -46,7 +46,7 @@ export default function Project({
           </Button.Primary>
         )}
       </div>
-      <div className={`w-1/2 rounded-lg ${gradient} p-12`}>
+      <div className={`h-fit w-1/2 rounded-lg ${gradient} p-12`}>
         <Image src={image} />
       </div>
     </Section>
