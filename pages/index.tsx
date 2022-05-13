@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Project from '@/components/Project'
+import Section from '@/components/Section'
+import Button from '@/components/Button'
+import Footer from '@/components/Footer'
 
 import IMGverto from '@/public/img/projects/verto.png'
 import IMG3em from '@/public/img/projects/3em.png'
@@ -50,6 +52,43 @@ const Home: NextPage = () => {
           link="https://arconnect.io"
           image={IMGverto}
         />
+
+        <Section>
+          <div className="my-6 mx-auto max-w-screen-md rounded-2xl bg-neutral-900 p-12 text-lg">
+            <h1 className="mb-8 text-center text-6xl font-bold">Our Why</h1>
+            <p className="mb-6 text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+              amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet,
+              urna nunc at. Lobortis pharetra habitant non ac imperdiet sed.
+            </p>
+            <p className="mb-6 text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+              amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet,
+              urna nunc at. Lobortis pharetra habitant non ac imperdiet sed.
+            </p>
+            <Button.Primary className="self-center">
+              Read our statement of purpose
+            </Button.Primary>
+          </div>
+        </Section>
+        <Section>
+          <div className="my-6 mx-auto max-w-screen-md rounded-2xl bg-neutral-900 p-12 text-lg">
+            <h1 className="mb-8 text-center text-6xl font-bold">
+              Come Join Us
+            </h1>
+            <p className="mb-6 text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+              amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet,
+              urna nunc at. Lobortis pharetra habitant non ac imperdiet sed.
+            </p>
+            <p className="mb-6 text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+              amet purus, enim nam turpis enim vulputate at. Tellus dolor, amet,
+              urna nunc at. Lobortis pharetra habitant non ac imperdiet sed.
+            </p>
+            <Button.Primary className="self-center">Learn More</Button.Primary>
+          </div>
+        </Section>
       </main>
 
       <Footer />
