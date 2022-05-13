@@ -15,7 +15,7 @@ interface NavbarProps {
 export default function Navbar({ links, className }: NavbarProps) {
   return (
     <nav
-      className={`sticky top-0 z-10 mb-8 flex w-full items-center justify-between bg-opacity-50 py-2 px-16 backdrop-blur ${className}`}
+      className={`sticky top-0 z-50 mb-8 flex w-full items-center justify-between bg-opacity-50 py-2 px-16 backdrop-blur ${className}`}
     >
       <Link href="/">
         <a className="flex items-center gap-4">
@@ -23,7 +23,7 @@ export default function Navbar({ links, className }: NavbarProps) {
           <span className="text-2xl font-semibold">Community Labs</span>
         </a>
       </Link>
-      <div className="flex gap-1 rounded-lg border-4 border-neutral-900 bg-neutral-900">
+      <div className="flex gap-1 rounded-lg border-opacity-70 bg-neutral-900 bg-opacity-80 p-1">
         {links.map(({ name, url, primary }) => (
           <Link href={url} key={url}>
             <a

@@ -24,6 +24,13 @@ const buzzwords = [
   'Placeholder9',
 ].sort(() => Math.random() - 0.5) // shuffle
 
+function Bullet({ word }: { word: string }) {
+  return (
+    <div className="mx-4 rounded-full border border-neutral-700 bg-neutral-800 bg-opacity-80 px-4 py-2 backdrop-blur">
+      <span>{word}</span>
+    </div>
+  )
+}
 
 export default function Hero() {
   return (
@@ -39,6 +46,7 @@ export default function Hero() {
         <div className="my-8 flex flex-col gap-8">
           <Marquee gradientColor={[0, 0, 0]} gradientWidth={64}>
             {buzzwords.map((word) => (
+              <Bullet key={word} word={word} />
             ))}
           </Marquee>
           <Marquee
@@ -47,6 +55,7 @@ export default function Hero() {
             gradientWidth={64}
           >
             {buzzwords.map((word) => (
+              <Bullet key={word} word={word} />
             ))}
           </Marquee>
         </div>

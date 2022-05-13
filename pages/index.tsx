@@ -72,6 +72,11 @@ const Home: NextPage = () => {
           </div>
         </Section>
         <Section>
+          <div className="my-6 mx-auto max-w-screen-md rounded-2xl border-2 border-dashed border-rose-700 bg-neutral-900 p-12 text-lg">
+            <h1 className="text-center text-6xl font-bold">[Our Team]</h1>
+          </div>
+        </Section>
+        <Section>
           <div className="my-6 mx-auto max-w-screen-md rounded-2xl bg-neutral-900 p-12 text-lg">
             <h1 className="mb-8 text-center text-6xl font-bold">
               Come Join Us
